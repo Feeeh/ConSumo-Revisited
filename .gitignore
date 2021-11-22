@@ -36,5 +36,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+Assets/Bully Assets
+Assets/Bully Assets.meta
+
 *.vsconfig
 *.log

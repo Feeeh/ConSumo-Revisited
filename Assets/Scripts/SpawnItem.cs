@@ -18,6 +18,7 @@ public class SpawnItem : MonoBehaviour
     private void SpawnItems()
     {
         GameObject item = Instantiate(itemPrefab) as GameObject;
+        respawnTime = Random.Range(1f, 5f);
         item.transform.position = new Vector2(screenBounds.x * 2, Random.Range(-screenBounds.y, screenBounds.y));
     }
 
